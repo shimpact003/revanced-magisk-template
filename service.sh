@@ -7,7 +7,7 @@ pm install -d /data/local/tmp/com.google.android.youtube.apk
 rm -rf /data/local/tmp/com.google.android.youtube.apk
 rm -rf /data/adb/modules/ReVanced/com.google.android.youtube.apk
 
-base_path="/data/adb/modules/ReVanced/revanced-root-signed.apk"
+base_path="/data/adb/modules/ReVanced/revanced-root.apk"
 stock_path=$( pm path com.google.android.youtube | grep base | sed 's/package://g' )
 
 chcon u:object_r:apk_data_file:s0  $base_path
