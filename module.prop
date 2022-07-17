@@ -1,7 +1,7 @@
 id=ReVanced
 name=Unofficial ReVanced build
-version=v17.26.35
-versionCode=6
+version=v17.27.39
+versionCode=7
 author=Lacia~chan (Magisk Module), CDzungx (ReVanced Build)
 description=Continuing the legacy of Vanced
 updateJson=https://raw.githubusercontent.com/CDzungx/revanced-da-build/master/update.json
